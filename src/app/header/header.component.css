@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Bungee+Spice&family=Carter+One&family=Lato:ital,wght@0,400;1,700&family=Mulish&family=Passions+Conflict&family=Poppins&family=Quicksand&display=swap');
+header{
+    background-color: rgb(47, 47, 47);
+    padding: 0;
+    border-bottom: 1px solid #FDDA0D;
+    
+}a{
+    color:#FDDA0D;
+    text-transform: uppercase;
+    line-height: .7;
+    letter-spacing: .12em;
+ 
+}a:hover{
+  background-color:  #FDDA0D ;
+  color: rgb(1, 1, 1);
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}nav ul{
+    list-style-type: none;
+    margin: 0;
+
+}
+nav ul li a {
+    padding: 3.34455rem;
+    display: inline-block;
+}
+#smiley{
+    margin-left: 20px;
+}#cheezy{
+    font-size: 2rem;
+    font-family: 'lato', sans-serif;
+}#spot{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    
+} 
+.container a img{
+    width:100px;
+    height: 100px;
+    border-radius: 10rem;
+  margin-left: 16rem;
+  margin-top: -4rem;
+    }
+/* *,*:before, *:after{
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+::-webkit-input-placeholder{
+    color: #56585b;
+}
+::-moz-placeholder{
+    color: #56585b;
+}
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url("https://i.postimg.cc/Sx04f8yc/image.png");
+    background-size: cover;
+    overflow: hidden;
+
+    
+}
+/* :root{
+    --orange:#ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0.5rem 1rem rgba(0,0,0,0.1);
+    --border:2rem solid rgba(0,0,0,0.1);
+--outline:0.1rem solid rgba(0,0,0,0.1);
+--outline-hover:0.2rem solid var(--black);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+
+}
+.container{
+background:#eee;
+
+}.header{
+   
+   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+}
+.header .logo img{
+width: 100px;
+height: 100px;
+border-radius: 10rem;
+}
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+    
+}nav ul li a{
+    display: flex;
+     */
